@@ -10,8 +10,6 @@ def remove_pairs_game(arr):
             stack.pop()
             total += 1
 
-    print(total)
-
     return 'Alice' if total % 2 == 1 else 'Bob'
 
 
